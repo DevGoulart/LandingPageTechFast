@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif; /* Define a família da fonte utilizada no documento inteiro. */
+    margin: 0; 
+    background-color: #fff;
+    color: #000000; /* Cor padrão do texto. */
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff; /* Cor branca para o texto do cabeçalho. */
+    padding: 30px 0; 
+    text-align: center; 
+}
+
+li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+li::before{
+    content: "\1F4BB";
+    margin-right: 10px;
+}
+
+#features {
+    padding: 20px;
+    background-color: #c7e9ee; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar um efeito elevado. */
+}
+
+#features ul {
+    list-style-type: none; /* Remove marcadores da lista. */
+    padding: 0;
+}
+
+#features li {
+    padding: 10px 0; 
+}
+
+#samples {
+    padding: 20px;
+    background-color: #c7e9ee;
+}
+
+#cadastro{
+    padding: 20px;
+    background-color: #c7e9ee;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    background: #1d2834;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    font-weight: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 1000px;
+    color: #000;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: inset 0 0 20px #000;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #00b7ff;
+    transform: scale(1.5)rotate(360deg);
+    box-shadow:  0 0 60px rgba(0, 255, 203, .64);
+    cursor: grab;
+    border: 2px solid #00b7ff;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #b4dde3;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #000000; /* Adiciona uma linha laranja abaixo do título da seção */
+    padding-bottom: 5px; /* Adiciona um pequeno espaçamento abaixo do título da seção */
+    margin-bottom: 15px; /* Adiciona uma margem abaixo do título da seção */
+    font-size: 24px; /* Define o tamanho da fonte do título da seção */
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff; /* Cor branca para o texto do rodapé. */
+}
